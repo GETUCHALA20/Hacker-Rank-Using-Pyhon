@@ -27,7 +27,6 @@ def countingValleys(steps, path):
         if tot < 0 and prevtot >= 0:
             count += 1
         prevtot = tot
-        
     return count
     # Write your code here
 
