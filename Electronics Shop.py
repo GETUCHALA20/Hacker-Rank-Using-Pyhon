@@ -16,6 +16,7 @@ def getMoneySpent(keyboards, drives, b):
             if y <= b and y > max_money_spent:
                 max_money_spent = (keyboard + drive)
     return max_money_spent
+
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
